@@ -1,0 +1,21 @@
+.login-form{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url('./rheedaimages/freestocks-_3Q3tsJ01nc-unsplash.jpg');
+    height: 350px;
+    padding: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.showcase-form{
+    position: relative;
+    bottom: 90px;
+    right: 50px;
+    height: 200px;
+    width: 400px;
+    padding: 40px;
+    z-index: 100;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}

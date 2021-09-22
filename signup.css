@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.login-form{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url('./rheedaimages/heather-ford-5gkYsrH_ebY-unsplash.jpg');
+    height: 350px;
+    padding: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.showcase-form{
+    position: relative;
+    bottom: 90px;
+    right: 50px;
+    height: 408px;
+    width: 400px;
+    padding: 40px;
+    z-index: 100;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.card{
+    background: transparent;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url('./rheedaimages/heather-ford-5gkYsrH_ebY-unsplash.jpg'); */
+    /* background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;     */
+}
+.showcase-form .form-control{
+    margin: 30px;
+    padding-right:50px ;
+    
+    
+}
+.showcase-form h2{
+    color: rgb(8, 146, 15);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400px;
+}
+
+.showcase-form input[type="text"],
+  .showcase-form input[type="password"], 
+ .showcase-form input[type="email"]{
+     border: 5px;
+     border-bottom: 1px solid rgb(8, 146, 15);
+     width: 100%;
+     padding: 3px;
+     font-weight: 800;
+     font-size: 19px;
+     transition: 0.5s;
+     
+     
+ }
+ .showcase-form input[type="text"]:focus,
+ .showcase-form input[type="password"]:focus,
+ .showcase-form input[type="email"]:focus{
+
+    border-bottom: 3px solid rgb(8, 146, 15);
+    outline: none;
+     border-radius: 7px; 
+
+ }
+ .button{
+    background: none;
+    box-shadow: 0 5px 15px -5px #bbb;
+    font-family: roboto;
+    font-size: 20px;
+    border-radius: 10px;
+    height: 50px;
+    overflow: hidden;
+    border: solid 2px rgb(8, 146, 15);
+    color:rgb(8, 146, 15);
+    padding:5px;
+    margin-left: 250px;
+    cursor: pointer;
+    position: relative;
+    width:150px;
+    transform: perspective(1px);
+    transition: color .2s ease-out;
+}
+.button a {
+    color:#ffffff ;
+}
+.button::before{
+    background-color:rgb(8, 146, 15);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: transform .3s ease-out;
+}
+.button:hover{
+    color: #fff;
+}
+
+
+.button-five:hover::before{
+    transform:translate(-50%,-50%) rotate(138deg) scaleY(4);
+
+}
+.button-five::before{
+   
+    transform:translate(-50%,-50%) rotate(135deg) scaleY(0);
+    width: 100%;
+    left: 50%;
+    right: 50%;
+}
+.button-five:active::before{
+    transform:translate(-50%,-50%) rotate(135deg) scaleY(10); 
+}
+
+
+
+
